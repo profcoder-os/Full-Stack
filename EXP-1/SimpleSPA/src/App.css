@@ -1,0 +1,48 @@
+/* App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
+#appp {
+  max-width: 400px;
+  padding: 20px;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  background: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #424242;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#t {
+  background: #ffffff;
+  width: 350px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+#t h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#t input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+#t input[type="text"]:focus {
+  border-color: #667eea;
+}
+
+#t > button {
+  width: 100%;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#t > button:hover {
+  background: #5a67d8;
+}
+
+#t ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#t li {
+  background: #f7f7f7;
+  padding: 10px 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+#t li button {
+  padding: 6px 10px;
+  background: #ffffff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+#t li button:hover {
+  background: #141414;
+}
