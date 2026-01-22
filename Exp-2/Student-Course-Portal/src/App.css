@@ -1,0 +1,254 @@
+/* =========================
+   MAIN LAYOUT
+========================= */
+.app-main {
+  min-height: calc(100vh - 70px);
+}
+
+/* =========================
+   NAVBAR (Premium, No Emojis)
+========================= */
+.nav-pro {
+  background: linear-gradient(90deg, #0b1220, #0f1b32);
+  padding: 14px 0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.nav-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-pro {
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link-pro {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+
+.nav-link-pro:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.nav-link-pro.active {
+  color: white;
+  font-weight: 700;
+  background: rgba(13, 110, 253, 0.22);
+}
+
+/* Buttons */
+.nav-btn-pro {
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.login-pro {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+}
+
+.login-pro:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.register-pro {
+  background: #0d6efd;
+  color: white;
+}
+
+.register-pro:hover {
+  background: #0b5ed7;
+}
+
+/* =========================
+   BACK BUTTON BELOW NAVBAR
+========================= */
+.backbar {
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.back-btn-page {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+}
+
+.back-btn-page:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   PAGE HEADER
+========================= */
+.page-header {
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-weight: 900;
+  margin-bottom: 6px;
+  color: #0b1220;
+}
+
+.page-subtitle {
+  color: #5d6472;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+/* =========================
+   HOME PAGE (Company Style)
+========================= */
+.hero-company {
+  background: linear-gradient(135deg, #ffffff, #f4f7ff);
+  border-radius: 24px;
+  padding: 46px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.hero-chip {
+  display: inline-block;
+  background: rgba(13, 110, 253, 0.12);
+  color: #0d6efd;
+  font-weight: 800;
+  padding: 9px 15px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 14px;
+  line-height: 1.1;
+  color: #0b1220;
+}
+
+.hero-heading span {
+  color: #0d6efd;
+}
+
+.hero-text {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #5b6475;
+  line-height: 1.7;
+}
+
+.company-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* KPI Grid */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.kpi-box {
+  background: #f7f9ff;
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.kpi-box h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+  color: #0b1220;
+}
+
+.kpi-box p {
+  margin: 0;
+  font-size: 13px;
+  color: #5d6472;
+}
+
+/* Feature Cards */
+.feature-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
+  transition: 0.25s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+}
+
+/* =========================
+   FOOTER
+========================= */
+.app-footer {
+  background: #0b1220;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 14px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+@media (max-width: 768px) {
+  .nav-horizontal {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-company {
+    padding: 22px;
+  }
+
+  .hero-heading {
+    font-size: 32px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+}
