@@ -1,4 +1,3 @@
-# LAB MANUAL  
 ## Unit–3: Implementing Routing in Single Page Applications (SPA)
 
 This repository contains three experiments demonstrating routing concepts in React Single Page Applications using React Router.
@@ -26,6 +25,12 @@ Routing in a Single Page Application allows navigation between different views w
 4. Define routes using Routes and Route components.  
 5. Navigate between pages without page reload.  
 
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
 ---
 
 ## Experiment–2: Navigation Using Link Component
@@ -40,7 +45,13 @@ The Link component in React Router enables navigation between different routes w
 1. Import the Link component from react-router-dom.  
 2. Create navigation links for different routes.  
 3. Use the to attribute to define target paths.  
-4. Verify smooth navigation without page reload.  
+4. Verify smooth navigation without page reload. 
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
 
 ---
 
@@ -57,6 +68,10 @@ A multi-page SPA simulates multiple pages within a single application by dynamic
 2. Map each component to a specific route.  
 3. Implement navigation using routing components.  
 4. Test navigation between pages without refreshing the browser.  
+
+![alt text](image.png)
+
+![alt text](image-1.png)
 
 ---
 
