@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  margin: 20px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 6px;
+}
+
+.navbar a:hover {
+  background-color: #2c80b4;
+}
