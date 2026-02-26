@@ -1,0 +1,36 @@
+.settings-container {
+  background: white;
+  padding: 25px;
+  width: 350px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-container label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+}
+
+.settings-container input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.settings-container button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.settings-container button:hover {
+  background: #0056b3;
+}
