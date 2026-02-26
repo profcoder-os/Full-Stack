@@ -36,9 +36,9 @@ In this experiment, form fields are connected to state variables, and input chan
 
 ## Screenshot
 
-![Experiment 1](./Exp-6/screenshots/6.1.1.png)
+![Experiment 1](screenshots/6.1.1.png)
 
-![Experiment 1](./Exp-6/screenshots/6.1.2.png)
+![Experiment 1](screenshots/6.1.2.png)
 
 ---
 
@@ -60,15 +60,15 @@ In this experiment, validation rules are applied to form fields such as checking
 
 ## Screenshot
 
-![Experiment 1](./Exp-6/screenshots/6.2.1.png)
+![Experiment 2](screenshots/6.2.1.png)
 
-![Experiment 1](./Exp-6/screenshots/6.2.2.png)
+![Experiment 2](screenshots/6.2.2.png)
 
-![Experiment 1](./Exp-6/screenshots/6.2.3.png)
+![Experiment 2](screenshots/6.2.3.png)
 
-![Experiment 1](./Exp-6/screenshots/6.2.4.png)
+![Experiment 2](screenshots/6.2.4.png)
 
-![Experiment 1](./Exp-6/screenshots/6.2.5.png)
+![Experiment 2](screenshots/6.2.5.png)
 
 ---
 
