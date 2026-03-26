@@ -95,7 +95,10 @@ Explore and test the endpoints directly in your browser:
 
 ---
 ### Images
-
+<img src="https://github.com/profcoder-os/Full-Stack/blob/main/Exp-8/images/Screenshot%202026-03-26%20at%2011.41.29%E2%80%AFAM.png?raw=true" />
+<img src="https://github.com/profcoder-os/Full-Stack/blob/main/Exp-8/images/Screenshot%202026-03-26%20at%2011.42.15%E2%80%AFAM.png?raw=true" />
+<img src="https://github.com/profcoder-os/Full-Stack/blob/main/Exp-8/images/Screenshot%202026-03-26%20at%2011.43.15%E2%80%AFAM.png?raw=true" />
+<img src="https://github.com/profcoder-os/Full-Stack/blob/main/Exp-8/images/Screenshot%202026-03-26%20at%2011.43.40%E2%80%AFAM.png?raw=true" />
 
 ## 🧪 Testing
 
